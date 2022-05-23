@@ -1,0 +1,352 @@
+body {
+  overflow-x: hidden;
+  background-color: #FFFBE9;
+}
+
+.reveal{
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: 1s all ease;
+}
+
+.reveal.active{
+  transform: translateY(0);
+  opacity: 1;
+}
+
+/* CSS Buttons ---------------------------------- */
+.btn-dark {
+  font-family: 'Libre Barcode 39 Text', cursive;
+  font-size: 1rem;
+}
+.btn-outline-light {
+  font-family: 'Libre Barcode 39 Text', cursive;
+  font-size: 2.5rem;
+  border: 1.5px solid;
+}
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: #FFD24C;
+  color: black;
+  cursor: pointer;
+  font-family: 'Lexend Exa', sans-serif;
+  padding: 15px;
+  border-radius: 100%;
+}
+
+#myBtn:hover {
+    background-color: white;
+}
+/* ---------------------------------------------- */
+
+/* NavBar Section ----------------------- */
+.container-fluid-one {
+  padding: 0% 15%;
+}
+.navbar-brand {
+  font-size: 2rem;
+  font-weight: 900;
+}
+.nav-item {
+  font-size: 1rem;
+  padding-left: 25px;
+  font-family: 'Lexend Exa', sans-serif;
+}
+.controls {
+  font-family: 'Lexend Exa', cursive;
+}
+.fixed-top {
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: black;
+}
+/* -------------------------------------- */
+
+/* Title Section ---------------------------- */
+#title {
+  background-color: black;
+}
+.container-fluid-two {
+  padding: 1.5% 15% 0%;
+  background-image: url(../images/comp.png);
+}
+.Big {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 2rem;
+  line-height: 1.25;
+  font-weight: 800;
+  color: white;
+}
+.typed-text{
+  font-family: 'Press Start 2P', cursive;
+  font-size: 2rem;
+  line-height: 1.25;
+  font-weight: 800;
+  color: white;
+}
+.cursor {
+  display: inline-block;
+  background-color: #ccc;
+  margin-left: 0.1rem;
+  width: 3px;
+  animation: blink 1s infinite;
+}
+.cursor.typing {
+  animation: none;
+}
+@keyframes blink {
+  0%  { background-color: #ccc; }
+  49% { background-color: #ccc; }
+  50% { background-color: transparent; }
+  99% { background-color: transparent; }
+  100%  { background-color: #ccc; }
+}
+.Small {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 1rem;
+  line-height: 1.25;
+  font-weight: 800;
+  color: white;
+}
+.Email{
+  color: yellow;
+}
+.ParagraphHeader{
+  color: white;
+  font-family: 'Lexend Exa', sans-serif;
+  text-align: justify;
+  text-justify: inter-word;
+  font-size: 17px;
+}
+/* ----------------------------------------- */
+
+/* Testimonials Section ----------------- */
+#Testimonials {
+  background-color: #890F0D;
+  border-bottom: 5px solid black;
+  border-top: 5px solid black;
+}
+.container-fluid-three {
+  padding: 3.5% 15%;
+}
+.TextColor {
+  color: white;
+}
+.TestiElement {
+  text-align: justify;
+  text-justify: inter-word;
+  font-family: 'Lexend Exa', sans-serif;
+}
+.TestiAuthor {
+  text-align: right;
+  margin-bottom: 0px;
+  font-family: monospace;
+}
+.TestiImage {
+  width: 140px;
+  height: 140px;
+  text-align: right;
+}
+.col-lg-6-ImageTestiCustom {
+  width: auto;
+  margin-left: auto;
+}
+/* -------------------------------------- */
+
+/* CV Section -------------------------------------- */
+.container-fluid-four {
+  padding: 3% 15%;
+  background-image: url(../images/glitch.jpg);
+}
+
+.container-fluid-five {
+  padding: 3.5% 15%;
+  background-image: url(../images/Akhawayyn.png);
+}
+
+.container-fluid-six {
+  padding: 3.5% 15%;
+  background-image: url(../images/book.png);
+}
+.ExtracurricularsTitle {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 1.5rem;
+  line-height: 1.25;
+  font-weight: 800;
+  color: yellow;
+}
+.accordion-button {
+  color: black;
+  font-family: 'Press Start 2P', cursive;
+  background-color: #fff;
+}
+.accordion-button:not(.collapsed) {
+  color: #3E8E7E;
+  background-color: #fff;
+  box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.125);
+}
+.accordion-item {
+  background-color: #7CD1B8;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+}
+.accordion-body {
+  font-family: 'Lexend Exa', sans-serif;
+}
+.EducationTitle {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 1.5rem;
+  line-height: 1.25;
+  font-weight: 800;
+  color: #36AE7C;
+}
+.CertificatesTitle {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 1.5rem;
+  line-height: 1.25;
+  font-weight: 800;
+  color: red;
+}
+.Paragraph {
+  color: white;
+  font-family: 'Lexend Exa', sans-serif;
+  text-align: justify;
+  text-justify: inter-word;
+}
+/* ------------------------------------------------- */
+
+/* Skills Section ------------------------------------- */
+#Skills {
+  border-top: 5px solid black;
+  border-bottom: 5px solid black;
+  background-color: #FFFBE9;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.container-fluid-seven {
+  padding: 3.5% 15%;
+}
+.SkillsTitle {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 1.5rem;
+}
+.progress-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 18px;
+  font-weight: 700;
+  color: #1c2647;
+  margin: 0 0 10px;
+}
+.progress {
+  height: 30px;
+  background: #fff;
+  border-top: 5px solid #1c2647;
+  border-bottom: 5px solid #1c2647;
+  border-radius: 0;
+  margin-bottom: 25px;
+  margin-right: 25px;
+  overflow: visible;
+  position: relative;
+}
+.progress-bar{
+  background-color: #243D25;
+}
+.progress:before,
+.progress:after {
+  content: "";
+  width: 5px;
+  background: #1c2647;
+  position: absolute;
+  top: 0;
+  left: -5px;
+  bottom: 0;
+}
+.progress:after {
+  left: auto;
+  right: -5px;
+}
+.progress .progress-bar {
+  border: none;
+  box-shadow: none;
+  -webkit-animation: 2s linear 0s
+  normal none infinite running progress-bar,
+  animate-positive 1s;
+  animation: 2s linear 0s normal none infinite running
+  progress-bar, animate-positive 1s;
+}
+/* ---------------------------------------------------- */
+
+/* Projects Section ----------------------------------- */
+#Projects {
+  background-color: black;
+  border-bottom: 5px solid white;
+}
+.container-fluid-eight {
+  padding: 5% 15% 5.5%;
+  background-image: url(../images/eni.png);
+}
+.ProjectTitle {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 1.5rem;
+  line-height: 1.25;
+  font-weight: 800;
+  color: red;
+  text-align: center;
+}
+.ParaProjectSection {
+  margin: 16px 0px 0px 0px;
+  color: white;
+  width: 300px;
+  font-size: 12px;
+  font-family: 'Lexend Exa', sans-serif;
+  text-align: justify;
+  text-justify: inter-word;
+}
+.ProjectImage {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 300px;
+  height: 300px;
+}
+.col-lg-4 {
+  width: auto;
+  margin: auto;
+  padding-bottom: 30px;
+}
+/* ---------------------------------------------------- */
+
+/* Contact Section ------------------------- */
+#Contact {
+  background-color: black;
+  padding-bottom: 100px;
+  padding-top: 100px;
+}
+.Contact_title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 1.5rem;
+  line-height: 1.25;
+  font-weight: 800;
+  color: #fff;
+  text-align: center;
+  text-decoration: underline;
+}
+/* ----------------------------------------- */
+
+/* Get Rid of Bootstrap Rounded Corners */
+* {
+  border-radius: 0 !important;
+}
+/* ------------------------------------ */
+
+.row>* {
+  padding-right: calc(var(--bs-gutter-x) *);
+  padding-left: calc(var(--bs-gutter-x) *);
+}
