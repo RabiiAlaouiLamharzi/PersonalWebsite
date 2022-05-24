@@ -16,13 +16,9 @@ body {
 }
 
 /* CSS Buttons ---------------------------------- */
-.btn-dark {
-  font-family: 'Libre Barcode 39 Text', cursive;
-  font-size: 1rem;
-}
 .btn-outline-light {
-  font-family: 'Libre Barcode 39 Text', cursive;
-  font-size: 2.5rem;
+  font-family: 'Lexend Exa', sans-serif;
+  font-size: 1.5rem;
   border: 1.5px solid;
 }
 #myBtn {
@@ -116,15 +112,12 @@ body {
   font-weight: 800;
   color: white;
 }
-.Email{
-  color: yellow;
-}
 .ParagraphHeader{
   color: white;
   font-family: 'Lexend Exa', sans-serif;
   text-align: justify;
   text-justify: inter-word;
-  font-size: 17px;
+  font-size: 16px;
 }
 /* ----------------------------------------- */
 
@@ -163,7 +156,7 @@ body {
 
 /* CV Section -------------------------------------- */
 .container-fluid-four {
-  padding: 3% 15%;
+  padding: 2.5% 15%;
   background-image: url(../images/glitch.jpg);
 }
 
@@ -227,8 +220,8 @@ body {
   border-top: 5px solid black;
   border-bottom: 5px solid black;
   background-color: #FFFBE9;
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 .container-fluid-seven {
   padding: 3.5% 15%;
@@ -339,6 +332,18 @@ body {
   text-decoration: underline;
 }
 /* ----------------------------------------- */
+
+/* Footer -------- */
+.ParagraphFooter{
+  color: black;
+  font-family: 'Lexend Exa', sans-serif;
+  font-size: 20px;
+}
+.Email{
+  color: green;
+  font-family: 'Lexend Exa', sans-serif;
+}
+/* --------------- */
 
 /* Get Rid of Bootstrap Rounded Corners */
 * {
