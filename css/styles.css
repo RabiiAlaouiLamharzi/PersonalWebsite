@@ -213,6 +213,39 @@ body {
   text-align: justify;
   text-justify: inter-word;
 }
+@media only screen and (max-width: 1718px) {
+  .Paragraph {
+    color: white;
+    font-family: 'Lexend Exa', sans-serif;
+    text-align: left;
+  }
+  .container-fluid-five {
+    padding: 0% 10%;
+  }
+  .container-fluid-six {
+    padding: 0% 10%;
+  }
+}
+@media only screen and (max-width: 1501px) {
+  .container-fluid-five {
+    padding: 0% 10%;
+    height: 355px;
+  }
+  .container-fluid-six {
+    padding: 0% 10%;
+    height: 355px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .container-fluid-five {
+    padding: 2% 10%;
+    height: 310px;
+  }
+  .container-fluid-six {
+    padding: 0% 10%;
+    height: 310px;
+  }
+}
 /* ------------------------------------------------- */
 
 /* Skills Section ------------------------------------- */
