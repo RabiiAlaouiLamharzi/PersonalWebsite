@@ -16,7 +16,7 @@ The Website contain the Following Sections:
 
 | Desktop Display | Mobile Display |
 | :---: | :---: |
-| <img width="1000" alt="Screenshot 2022-05-23 at 22 08 24" src="https://user-images.githubusercontent.com/103124512/169906311-b720c232-a4a9-493e-a5a1-b1e636c9d7b9.png"> | <img width="410" alt="Screenshot 2022-05-23 at 22 14 13" src="https://user-images.githubusercontent.com/103124512/169907084-ef76f8fa-9477-436d-98d6-6a50734f7ba6.png"> |
+|<img width="1763" alt="Screenshot 2022-06-02 at 17 39 25" src="https://user-images.githubusercontent.com/103124512/171680780-bccc748a-24fd-406a-b84b-0402804a4674.png"> | <img width="401" alt="Screenshot 2022-06-02 at 17 41 32" src="https://user-images.githubusercontent.com/103124512/171681132-dfac4e07-f090-46b6-85d6-65e044a667d2.png"> |
 
 Some Cool Functionalities Implemented
 - Navbar Toggler: A Bootstrap class that englobes menu items into a collapsing toogler in case of Mobile Display. This enhances user experience.
@@ -25,7 +25,7 @@ Some Cool Functionalities Implemented
 
 - Carousel: A bootstrap component that functions as a slideshow for cycling through a series of content. Used for the Testimonials Section.
 
-<img width="1771" alt="Screenshot 2022-05-23 at 22 35 59" src="https://user-images.githubusercontent.com/103124512/169909677-514267b6-2b5d-4478-8dbc-c21ed62d12ea.png">
+<img width="1772" alt="Screenshot 2022-06-02 at 17 42 24" src="https://user-images.githubusercontent.com/103124512/171681273-5796f472-11ed-4ee0-8073-d4315a75e9ba.png">
 
 - Accordion: Another Bootstrap component that functions as a vertically collapsing element to show and hide content via class changes. Used for the  Extracurriculars Section
 
