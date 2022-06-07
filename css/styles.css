@@ -146,7 +146,8 @@ body {
 .TestiImage {
   width: 140px;
   height: 140px;
-  text-align: right;
+  border-radius: 50%;
+  overflow: hidden;
 }
 .col-lg-6-ImageTestiCustom {
   width: auto;
@@ -377,12 +378,6 @@ body {
   font-family: 'Lexend Exa', sans-serif;
 }
 /* --------------- */
-
-/* Get Rid of Bootstrap Rounded Corners */
-* {
-  border-radius: 0 !important;
-}
-/* ------------------------------------ */
 
 .row>* {
   padding-right: calc(var(--bs-gutter-x) *);
