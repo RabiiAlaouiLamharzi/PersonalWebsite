@@ -1,23 +1,23 @@
 body {
   overflow-x: hidden;
-  background-color: #FFFBE9;
+  background-color: #fffbe9;
 }
 
-.reveal{
+.reveal {
   position: relative;
   transform: translateY(150px);
   opacity: 0;
   transition: 1s all ease;
 }
 
-.reveal.active{
+.reveal.active {
   transform: translateY(0);
   opacity: 1;
 }
 
 /* CSS Buttons ---------------------------------- */
 .btn-outline-light {
-  font-family: 'Lexend Exa', sans-serif;
+  font-family: "Lexend Exa", sans-serif;
   font-size: 1.5rem;
   border: 1.5px solid;
 }
@@ -30,16 +30,16 @@ body {
   font-size: 18px;
   border: none;
   outline: none;
-  background-color: #FFD24C;
+  background-color: #ffd24c;
   color: black;
   cursor: pointer;
-  font-family: 'Lexend Exa', sans-serif;
+  font-family: "Lexend Exa", sans-serif;
   padding: 15px;
   border-radius: 100%;
 }
 
 #myBtn:hover {
-    background-color: white;
+  background-color: white;
 }
 /* ---------------------------------------------- */
 
@@ -54,15 +54,15 @@ body {
 .nav-item {
   font-size: 1rem;
   padding-left: 25px;
-  font-family: 'Lexend Exa', sans-serif;
+  font-family: "Lexend Exa", sans-serif;
 }
 .controls {
-  font-family: 'Lexend Exa', cursive;
+  font-family: "Lexend Exa", cursive;
 }
 .fixed-top {
-    padding-left: 100px;
-    padding-right: 100px;
-    background-color: black;
+  padding-left: 100px;
+  padding-right: 100px;
+  background-color: black;
 }
 /* -------------------------------------- */
 
@@ -75,14 +75,14 @@ body {
   background-image: url(../images/comp.jpg);
 }
 .Big {
-  font-family: 'Press Start 2P', cursive;
+  font-family: "Press Start 2P", cursive;
   font-size: 2rem;
   line-height: 1.25;
   font-weight: 800;
   color: white;
 }
-.typed-text{
-  font-family: 'Press Start 2P', cursive;
+.typed-text {
+  font-family: "Press Start 2P", cursive;
   font-size: 2rem;
   line-height: 1.25;
   font-weight: 800;
@@ -99,22 +99,32 @@ body {
   animation: none;
 }
 @keyframes blink {
-  0%  { background-color: #ccc; }
-  49% { background-color: #ccc; }
-  50% { background-color: transparent; }
-  99% { background-color: transparent; }
-  100%  { background-color: #ccc; }
+  0% {
+    background-color: #ccc;
+  }
+  49% {
+    background-color: #ccc;
+  }
+  50% {
+    background-color: transparent;
+  }
+  99% {
+    background-color: transparent;
+  }
+  100% {
+    background-color: #ccc;
+  }
 }
 .Small {
-  font-family: 'Press Start 2P', cursive;
+  font-family: "Press Start 2P", cursive;
   font-size: 1rem;
   line-height: 1.25;
   font-weight: 800;
   color: white;
 }
-.ParagraphHeader{
+.ParagraphHeader {
   color: white;
-  font-family: 'Lexend Exa', sans-serif;
+  font-family: "Lexend Exa", sans-serif;
   text-align: justify;
   text-justify: inter-word;
   font-size: 16px;
@@ -123,7 +133,7 @@ body {
 
 /* Testimonials Section ----------------- */
 #Testimonials {
-  background-color: #890F0D;
+  background-color: #890f0d;
   border-bottom: 5px solid black;
   border-top: 5px solid black;
 }
@@ -136,7 +146,7 @@ body {
 .TestiElement {
   text-align: justify;
   text-justify: inter-word;
-  font-family: 'Lexend Exa', sans-serif;
+  font-family: "Lexend Exa", sans-serif;
 }
 .TestiAuthor {
   text-align: right;
@@ -171,7 +181,7 @@ body {
   background-image: url(../images/book.png);
 }
 .ExtracurricularsTitle {
-  font-family: 'Press Start 2P', cursive;
+  font-family: "Press Start 2P", cursive;
   font-size: 1.5rem;
   line-height: 1.25;
   font-weight: 800;
@@ -179,30 +189,30 @@ body {
 }
 .accordion-button {
   color: black;
-  font-family: 'Press Start 2P', cursive;
+  font-family: "Press Start 2P", cursive;
   background-color: #fff;
 }
 .accordion-button:not(.collapsed) {
-  color: #3E8E7E;
+  color: #3e8e7e;
   background-color: #fff;
   box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.125);
 }
 .accordion-item {
-  background-color: #7CD1B8;
+  background-color: #7cd1b8;
   border: 1px solid rgba(0, 0, 0, 0.125);
 }
 .accordion-body {
-  font-family: 'Lexend Exa', sans-serif;
+  font-family: "Lexend Exa", sans-serif;
 }
 .EducationTitle {
-  font-family: 'Press Start 2P', cursive;
+  font-family: "Press Start 2P", cursive;
   font-size: 1.5rem;
   line-height: 1.25;
   font-weight: 800;
-  color: #36AE7C;
+  color: #36ae7c;
 }
 .CertificatesTitle {
-  font-family: 'Press Start 2P', cursive;
+  font-family: "Press Start 2P", cursive;
   font-size: 1.5rem;
   line-height: 1.25;
   font-weight: 800;
@@ -210,14 +220,14 @@ body {
 }
 .Paragraph {
   color: white;
-  font-family: 'Lexend Exa', sans-serif;
+  font-family: "Lexend Exa", sans-serif;
   text-align: justify;
   text-justify: inter-word;
 }
 @media only screen and (max-width: 1718px) {
   .Paragraph {
     color: white;
-    font-family: 'Lexend Exa', sans-serif;
+    font-family: "Lexend Exa", sans-serif;
     text-align: left;
   }
   .container-fluid-five {
@@ -253,19 +263,19 @@ body {
 #Skills {
   border-top: 5px solid black;
   border-bottom: 5px solid black;
-  background-color: #FFFBE9;
-  padding-top: 40px;
-  padding-bottom: 40px;
+  background-color: #fffbe9;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 .container-fluid-seven {
   padding: 3.5% 15%;
 }
 .SkillsTitle {
-  font-family: 'Press Start 2P', cursive;
+  font-family: "Press Start 2P", cursive;
   font-size: 1.5rem;
 }
 .progress-title {
-  font-family: 'Press Start 2P', cursive;
+  font-family: "Press Start 2P", cursive;
   font-size: 18px;
   font-weight: 700;
   color: #1c2647;
@@ -282,8 +292,8 @@ body {
   overflow: visible;
   position: relative;
 }
-.progress-bar{
-  background-color: #243D25;
+.progress-bar {
+  background-color: #243d25;
 }
 .progress:before,
 .progress:after {
@@ -302,11 +312,10 @@ body {
 .progress .progress-bar {
   border: none;
   box-shadow: none;
-  -webkit-animation: 2s linear 0s
-  normal none infinite running progress-bar,
-  animate-positive 1s;
-  animation: 2s linear 0s normal none infinite running
-  progress-bar, animate-positive 1s;
+  -webkit-animation: 2s linear 0s normal none infinite running progress-bar,
+    animate-positive 1s;
+  animation: 2s linear 0s normal none infinite running progress-bar,
+    animate-positive 1s;
 }
 /* ---------------------------------------------------- */
 
@@ -320,7 +329,7 @@ body {
   background-image: url(../images/eni.png);
 }
 .ProjectTitle {
-  font-family: 'Press Start 2P', cursive;
+  font-family: "Press Start 2P", cursive;
   font-size: 1.5rem;
   line-height: 1.25;
   font-weight: 800;
@@ -332,7 +341,7 @@ body {
   color: white;
   width: 300px;
   font-size: 12px;
-  font-family: 'Lexend Exa', sans-serif;
+  font-family: "Lexend Exa", sans-serif;
   text-align: justify;
   text-justify: inter-word;
 }
@@ -348,6 +357,40 @@ body {
   margin: auto;
   padding-bottom: 30px;
 }
+.ProjectBottom {
+  margin: 0px;
+  background-color: blue;
+  color: #fff;
+  font-family: "Press Start 2P", cursive;
+  font-size: 1.5rem;
+  line-height: 1.25;
+  font-weight: 800;
+  position: relative;
+  text-align: center;
+}
+.ProjectBottom::after {
+  display: inline-block;
+  animation: dotty steps(1, end) 1s infinite;
+  content: "";
+}
+
+@keyframes dotty {
+  0% {
+    content: "";
+  }
+  25% {
+    content: ".";
+  }
+  50% {
+    content: "..";
+  }
+  75% {
+    content: "...";
+  }
+  100% {
+    content: "";
+  }
+}
 /* ---------------------------------------------------- */
 
 /* Contact Section ------------------------- */
@@ -357,7 +400,7 @@ body {
   padding-top: 100px;
 }
 .Contact_title {
-  font-family: 'Press Start 2P', cursive;
+  font-family: "Press Start 2P", cursive;
   font-size: 1.5rem;
   line-height: 1.25;
   font-weight: 800;
@@ -368,18 +411,18 @@ body {
 /* ----------------------------------------- */
 
 /* Footer -------- */
-.ParagraphFooter{
+.ParagraphFooter {
   color: black;
-  font-family: 'Lexend Exa', sans-serif;
+  font-family: "Lexend Exa", sans-serif;
   font-size: 20px;
 }
-.Email{
+.Email {
   color: green;
-  font-family: 'Lexend Exa', sans-serif;
+  font-family: "Lexend Exa", sans-serif;
 }
 /* --------------- */
 
-.row>* {
+.row > * {
   padding-right: calc(var(--bs-gutter-x) *);
   padding-left: calc(var(--bs-gutter-x) *);
 }
